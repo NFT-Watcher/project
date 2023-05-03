@@ -2,33 +2,38 @@
 <html>
   <head>
     <title>NFT Watcher</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       body {
-        background-color: #f0f6f9;
+        background-color: #c5e3f6;
         font-family: Arial, sans-serif;
-        color: #333;
-        margin: 0;
-        padding: 0;
       }
       .container {
-        max-width: 800px;
         margin: 0 auto;
-        padding: 2rem;
+        max-width: 800px;
+        padding: 50px;
         background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 10px #888;
+        text-align: center;
+        position: relative;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(192, 192, 192, 0.6);
+        z-index: -1;
       }
       h1 {
-        font-size: 3rem;
-        margin: 0 0 2rem 0;
-        text-align: center;
+        color: #000;
+        font-size: 50px;
+        margin-bottom: 20px;
       }
       p {
-        font-size: 1.5rem;
-        margin: 0 0 2rem 0;
-        text-align: center;
+        color: #000;
+        font-size: 30px;
+        margin-bottom: 50px;
       }
     </style>
   </head>
@@ -36,6 +41,7 @@
     <div class="container">
       <h1>NFT Watcher</h1>
       <p>Coming soon</p>
+      <div class="overlay"></div>
     </div>
   </body>
 </html>
